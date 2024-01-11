@@ -29,7 +29,7 @@ import random
 Start by defining the types of characters you want in the password. This can include uppercase letters, lowercase letters, numbers, and symbols.
 
 ```python
-characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()?"
+characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+, -./:;<=>?@[\\]^_`{|}~"
 ```
 
 #### Step 2: Taking User Input
