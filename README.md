@@ -72,7 +72,7 @@ def generate_password():
     password = ''.join(random.choice(characters) for i in range(password_length))
     print(f"Your generated password is: {password}")
 
-PasswordGenerator()
+generate_password()
 ```
 
 ## Running the Code
