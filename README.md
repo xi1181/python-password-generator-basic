@@ -77,8 +77,7 @@ generate_password()
 
 ## Running the Code
 - Once all the components are pieced together, running the script will prompt you for a password length and then display a randomly generated password of that length.
-- Execute the script using your chosen method, whether that's clicking a Run button in an online editor or using a command line.
-![image](image_3.png)
+- Execute your program!
 
 ## Password Generated!
 - With each run of the script, you'll get a unique and secure password.
