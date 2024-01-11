@@ -20,10 +20,10 @@ With Python's built-in modules, creating a password generator is both fun and im
 import random
 ```
 
-### 2. Define the Password Generator Function
+### 2. Define the `generate_password` Function
 - This function will handle the task of generating random passwords. Let's understand its core components:
 
-### Breaking Down the `PasswordGenerator` Function
+### Breaking Down the `generate_password` Function
 
 #### Step 1: Defining Characters
 Start by defining the types of characters you want in the password. This can include uppercase letters, lowercase letters, numbers, and symbols.
@@ -59,14 +59,14 @@ By following these steps, you will be equipped with a function that can generate
 - After defining the function, call it to generate a password:
 
 ```python
-PasswordGenerator()
+generate_password()
 ```
 
 ### Final Code
 ```python
 import random
 
-def PasswordGenerator():
+def generate_password():
     characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()?"
     password_length = int(input("Enter the password length: "))
     password = ''.join(random.choice(characters) for i in range(password_length))
